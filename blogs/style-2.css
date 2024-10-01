@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+    --primary-color: #60a5fa;
+    --off-white: #d0d6f4;
+}
+
+body{
+    font-family: "Roboto Serif",
+    "sans-serif";
+}
+
+.heading-3{
+    text-align: center;
+}
+
+.heading{
+    padding-left: 4rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.center-container{
+    max-width: 600px;
+    margin: auto;     
+    padding-bottom: 2rem;
+}
+
+/*.container{
+    background-color: var(--off-white);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}*/
+
+.highlight{
+    background-color: var(--off-white);
+}
+
+.frame{
+    display: block;
+    margin: auto;
+    padding-bottom: 2rem;
+    
+}
+
+
+/*footer*/
+
+footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    color: white;
+}
+
+footer .link{
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    
+}
+
+.bold{
+   font-weight: bold;
+   font-size: large;
+}
+
+.footer{
+    padding-bottom: 2rem;
+}
